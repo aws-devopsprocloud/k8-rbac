@@ -1,5 +1,7 @@
 # kubectl get configmap aws-auth -n kube-system -o yaml 
 # aws sts get-caller-identity
+# aws eks update-kubeconfig --region us-east-1 --name roboshop
+
 
 apiVersion: v1
 data:
@@ -12,6 +14,8 @@ data:
   mapUsers: |
     - groups:
       userarn: arn:aws:iam::453531893439:user/trixie
+      username: trixie 
+      userarn: arn:aws:iam::453531893439:user/sumathi
       username: trixie 
 kind: ConfigMap
 metadata:
