@@ -16,7 +16,7 @@ data:
       userarn: arn:aws:iam::453531893439:user/trixie
       username: trixie 
       userarn: arn:aws:iam::453531893439:user/sumathi
-      username: trixie 
+      username: sumathi 
 kind: ConfigMap
 metadata:
   name: aws-auth
