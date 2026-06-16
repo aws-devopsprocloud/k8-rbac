@@ -12,10 +12,9 @@ data:
       - system:nodes
       username: system:node:{{EC2PrivateDNSName}}
   mapUsers: |
-    - groups:
-      userarn: arn:aws:iam::453531893439:user/trixie
+    - userarn: arn:aws:iam::453531893439:user/trixie
       username: trixie 
-      userarn: arn:aws:iam::453531893439:user/sumathi
+    - userarn: arn:aws:iam::453531893439:user/sumathi
       username: sumathi 
 kind: ConfigMap
 metadata:
