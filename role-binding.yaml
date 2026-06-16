@@ -1,3 +1,5 @@
+# kubectl get clusterrole roboshop-cluster-admin -o yaml
+
 apiVersion: rbac.authorization.k8s.io/v1
 # This role binding allows "jane" to read pods in the "default" namespace.
 # You need to already have a Role named "pod-reader" in that namespace.
