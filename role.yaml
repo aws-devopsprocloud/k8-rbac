@@ -19,5 +19,5 @@ rules:
   #
   # at the HTTP level, the name of the resource for accessing Secret
   # objects is "secrets"
-  resources: ["secrets", "pods", configmaps, "persistentvolumes", "persistentvolumeclaims"]
+  resources: ["secrets", "pods", configmaps, "persistentvolumeclaims"]
   verbs: ["get", "watch", "list"]
